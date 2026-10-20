@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#d5f858"><meta name="description" content="A little language, a lot of personality. Translate Filipino and English to Swardspeak, discover gay lingo, and play your way to fluency."><title>Gaylingua — Say it with flair</title><link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#translate" aria-label="Gaylingua home"><img src="/icon.svg" alt="" width="38" height="38"><span>gaylingua<span class="brand-dot">✳</span></span></a>
+  <div class="sidebar-caption">A LITTLE LANGUAGE. A LOT OF YOU.</div>
+  <nav aria-label="Main navigation"><a href="#translate" data-page="translate" class="active"><span data-icon="translate"></span>Translate<span class="nav-dot"></span></a><a href="#dictionary" data-page="dictionary"><span data-icon="book"></span>Lingo library</a><a href="#play" data-page="play"><span data-icon="game"></span>Play & learn<span class="new-label">FUN!</span></a><a href="#saved" data-page="saved"><span data-icon="heart"></span>My collection<span id="saved-count" class="count">0</span></a></nav>
+  <div class="sidebar-bottom"><div class="little-spark">✳</div><h3>Made for every beshie.</h3><p>Explore the colorful world of Filipino queer expression.</p><button class="text-link" id="about-button">A little about us <span>↗</span></button></div>
+  <div class="sidebar-footer"><span class="rainbow"></span> Proudly Filipino. Unapologetically you.</div>
+</aside>
+<div class="app-shell">
+  <header class="topbar"><div class="breadcrumb">Your daily dose of <span id="breadcrumb-label">extra</span><span class="tiny-star">✧</span></div><div class="topbar-right"><button id="install-button" class="install-button" hidden><span data-icon="phone"></span>Get the app</button><span class="daily-pill"><span class="online-dot"></span>A little better every day</span><button id="profile-button" class="avatar" aria-label="View your learning progress">B<span>✦</span></button></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="page-footer"><span>Made with a little love & a lot of <b>hanash.</b></span><span>Language has no limits. Neither do you. <span class="footer-star">✳</span></span></footer>
+</div>
+<nav class="mobile-nav" aria-label="Mobile navigation"><a href="#translate" data-page="translate" class="active"><span data-icon="translate"></span>Translate</a><a href="#dictionary" data-page="dictionary"><span data-icon="book"></span>Library</a><a href="#play" data-page="play"><span data-icon="game"></span>Play</a><a href="#saved" data-page="saved"><span data-icon="heart"></span>Saved</a></nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="info-dialog"><button class="dialog-close icon-button" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
+<script type="module" src="/app.js"></script>
+</body></html>
