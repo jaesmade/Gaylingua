@@ -1,5 +1,7 @@
 # Gaylingua verification — 21 October 2026
 
+**Android build follow-up:** The missing SDK was subsequently installed on D: with the user’s authorization. APK compilation and signature verification now pass. See [APK-BUILD.md](APK-BUILD.md). The original verification results below retain the environment limitations recorded at the time; physical-device and emulator testing are still unverified.
+
 The web application passed the checks below. Android source synchronization passed, but APK compilation and device testing are **blocked by the missing Android SDK**. This report is not a claim that every browser, device, or linguistic interpretation has been validated.
 
 ## Automated results

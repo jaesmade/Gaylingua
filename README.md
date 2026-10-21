@@ -27,10 +27,14 @@ Open http://localhost:5187. Run `npm test` to check translation and vocabulary b
 
 The Capacitor Android project is in `android/`, using app ID `app.gaylingua.mobile`. Its core files are bundled locally; it does not load the private hosted site or require ChatGPT sign-in. `npm run android:sync` prepares and copies the web app, including the complete dictionary, into that project. Generated native assets are ignored by Git.
 
-To compile, install Java 21 and Android SDK Platform 36 plus Android SDK Build-Tools through Android Studio’s SDK Manager. Accept the SDK license during that setup. Set `ANDROID_HOME`, or use the standard Windows SDK location. Then run:
+The Android SDK is now installed locally in `.android-sdk/` on D:. Build caches, temporary files, and Android user settings are kept in `.gradle/` and `.android-sdk-user/` inside this project. Java 21 is already installed. No Android Studio installation or global environment-variable changes were needed.
+
+To build another APK, run:
 
 ```sh
 npm run android:apk
 ```
 
-On success the script copies the debug-signed test APK to `artifacts/gaylingua-debug.apk`. `npm run android:open` opens the project in Android Studio. A release for stores requires your own signing key. No APK has been compiled in the current environment because the Android SDK is not installed; device behavior, installation, system speech voices, and keyboard/system-bar interactions still require a physical Android device or emulator.
+The script copies the debug-signed test APK to `artifacts/gaylingua-debug.apk`. The first APK was successfully compiled on 21 October 2026; its signature, manifest, and bundled dictionary were verified. See `APK-BUILD.md`. `npm run android:open` is available if Android Studio is installed later. A release for stores requires your own signing key. Device behavior, installation, system speech voices, and keyboard/system-bar interactions still require a physical Android device or emulator.
+
+For a new Windows checkout without the SDK, review Google’s Android SDK License Agreement at https://developer.android.com/studio/terms. After agreeing to the license, `node scripts/setup-android-sdk.mjs --accept-sdk-license` installs the required tools inside that checkout. Alternatively, install Platform 36 and the build tools through Android Studio’s SDK Manager and set `ANDROID_HOME`. The build script also recognizes a local `.android-sdk/`, `android/local.properties`, or the standard Windows SDK location.

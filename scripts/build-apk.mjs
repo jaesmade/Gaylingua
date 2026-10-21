@@ -12,7 +12,7 @@ let configuredSdk;
 if (existsSync(localProperties)) {
   configuredSdk = (await readFile(localProperties, 'utf8')).match(/^sdk\.dir=(.+)$/m)?.[1].trim().replace(/\\:/g, ':').replace(/\\\\/g, '\\');
 }
-const sdk = [process.env.ANDROID_HOME, process.env.ANDROID_SDK_ROOT, configuredSdk, standardSdk]
+const sdk = [process.env.ANDROID_HOME, process.env.ANDROID_SDK_ROOT, configuredSdk, path.join(root, '.android-sdk'), standardSdk]
   .find(candidate => candidate && existsSync(path.join(candidate, 'platforms', 'android-36', 'android.jar')));
 if (!sdk) {
   console.error('Android SDK Platform 36 was not found.');
@@ -21,7 +21,11 @@ if (!sdk) {
   console.error('SDK setup: https://developer.android.com/studio');
   process.exit(1);
 }
-const env = { ...process.env, ANDROID_HOME: sdk, ANDROID_SDK_ROOT: sdk };
+const gradleHome = path.join(root, '.gradle');
+const androidUserHome = path.join(root, '.android-sdk-user');
+const temp = path.join(gradleHome, 'tmp');
+await Promise.all([mkdir(gradleHome,{recursive:true}),mkdir(androidUserHome,{recursive:true}),mkdir(temp,{recursive:true})]);
+const env = { ...process.env, ANDROID_HOME: sdk, ANDROID_SDK_ROOT: sdk, ANDROID_USER_HOME: androidUserHome, GRADLE_USER_HOME: gradleHome, TEMP: temp, TMP: temp };
 function run(command, args, cwd = root, options = {}) {
   const result = spawnSync(command, args, { cwd, env, stdio: 'inherit', ...options });
   if (result.error) console.error(result.error.message);

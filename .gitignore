@@ -4,6 +4,7 @@ node_modules/
 native-web/
 artifacts/
 .android-sdk/
+.android-sdk-user/
 .gradle/
 *.keystore
 *.jks
