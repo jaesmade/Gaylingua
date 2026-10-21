@@ -1,0 +1,1671 @@
+{
+  "source": {
+    "title": "Swardspeak",
+    "authors": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Swardspeak",
+    "permalink": "https://en.wikipedia.org/w/index.php?title=Swardspeak&oldid=1376991241",
+    "revision": "1376991241",
+    "importedAt": "2026-10-21T00:17:23.865Z",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "scope": "All vocabulary rows in the eight Conventions tables. Parallel nursery-rhyme examples are not word-to-meaning dictionary entries and are not imported.",
+    "modifications": "HTML and citation markers removed; variants split; concise display meanings and lookup aliases derived; existing entries merged; the lyric excerpt in the Mag-Sharon derivation omitted. Source labels, source words/concepts, and origins retained.",
+    "tableCount": 8,
+    "rowCount": 83
+  },
+  "rows": [
+    {
+      "rowId": "table-1-row-1",
+      "table": 1,
+      "label": "Jowa (variant diminutive: Jowabelle/Jowabels)",
+      "word": "Jowa",
+      "variants": [
+        "Jowa",
+        "Jowabelle",
+        "Jowabels"
+      ],
+      "meaning": "Spouse / romantic partner",
+      "original": "Asawa (spouse, usually female)",
+      "origin": "Tagalog, Cebuano, Hiligaynon",
+      "aliases": [
+        "jowa",
+        "jowabelle",
+        "jowabels",
+        "asawa",
+        "spouse",
+        "Spouse",
+        "romantic partner"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-1-row-2",
+      "table": 1,
+      "label": "Jomba",
+      "word": "Jomba",
+      "variants": [
+        "Jomba"
+      ],
+      "meaning": "fat",
+      "original": "Tabâ (fat)",
+      "origin": "Tagalog",
+      "aliases": [
+        "jomba",
+        "tabâ",
+        "taba",
+        "fat"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-1-row-3",
+      "table": 1,
+      "label": "Gora (variant diminutive: Gorabelle/Gorabels)",
+      "word": "Gora",
+      "variants": [
+        "Gora",
+        "Gorabelle",
+        "Gorabels"
+      ],
+      "meaning": "Go to a place",
+      "original": "to go (to a place)",
+      "origin": "English",
+      "aliases": [
+        "gora",
+        "gorabelle",
+        "gorabels",
+        "to go",
+        "go",
+        "Go to a place"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-1-row-4",
+      "table": 1,
+      "label": "Shupatembang, Shupated, Jupiter",
+      "word": "Shupatembang",
+      "variants": [
+        "Shupatembang",
+        "Shupated",
+        "Jupiter"
+      ],
+      "meaning": "sibling",
+      "original": "Kapatíd (sibling)",
+      "origin": "Tagalog",
+      "aliases": [
+        "shupatembang",
+        "shupated",
+        "jupiter",
+        "kapatíd",
+        "kapatid",
+        "sibling"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-1-row-5",
+      "table": 1,
+      "label": "Shunga",
+      "word": "Shunga",
+      "variants": [
+        "Shunga"
+      ],
+      "meaning": "idiot",
+      "original": "Tangá (idiot)",
+      "origin": "Tagalog, Cebuano, Hiligaynon",
+      "aliases": [
+        "shunga",
+        "tangá",
+        "tanga",
+        "idiot"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-1-row-6",
+      "table": 1,
+      "label": "Julalay",
+      "word": "Julalay",
+      "variants": [
+        "Julalay"
+      ],
+      "meaning": "assistant",
+      "original": "Alalay (assistant)",
+      "origin": "Tagalog",
+      "aliases": [
+        "julalay",
+        "alalay",
+        "assistant"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-2-row-1",
+      "table": 2,
+      "label": "Kyota",
+      "word": "Kyota",
+      "variants": [
+        "Kyota"
+      ],
+      "meaning": "child",
+      "original": "Batà (child)",
+      "origin": "Tagalog",
+      "aliases": [
+        "kyota",
+        "batà",
+        "bata",
+        "child"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-2-row-2",
+      "table": 2,
+      "label": "Nyorts",
+      "word": "Nyorts",
+      "variants": [
+        "Nyorts"
+      ],
+      "meaning": "Shorts",
+      "original": "Shorts",
+      "origin": "English",
+      "aliases": [
+        "nyorts",
+        "shorts",
+        "Shorts"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-2-row-3",
+      "table": 2,
+      "label": "Nyormville",
+      "word": "Nyormville",
+      "variants": [
+        "Nyormville"
+      ],
+      "meaning": "FarmVille",
+      "original": "FarmVille",
+      "origin": "English",
+      "aliases": [
+        "nyormville",
+        "farmville",
+        "FarmVille"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-2-row-4",
+      "table": 2,
+      "label": "Kyoho",
+      "word": "Kyoho",
+      "variants": [
+        "Kyoho"
+      ],
+      "meaning": "stinking",
+      "original": "Mabahò (stinking)",
+      "origin": "Tagalog",
+      "aliases": [
+        "kyoho",
+        "mabahò",
+        "mabaho",
+        "stinking"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-3-row-1",
+      "table": 3,
+      "label": "Jotis (a very small amount)",
+      "word": "Jotis",
+      "variants": [
+        "Jotis"
+      ],
+      "meaning": "a very small amount",
+      "original": "Jutay (a small amount)",
+      "origin": "Cebuano, Hiligaynon",
+      "aliases": [
+        "jotis",
+        "jutay",
+        "a very small amount",
+        "small amount"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-3-row-2",
+      "table": 3,
+      "label": "Jubis (very fat)",
+      "word": "Jubis",
+      "variants": [
+        "Jubis"
+      ],
+      "meaning": "very fat",
+      "original": "obese",
+      "origin": "English",
+      "aliases": [
+        "jubis",
+        "obese",
+        "very fat"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-3-row-3",
+      "table": 3,
+      "label": "Taroosh (very bitchy)",
+      "word": "Taroosh",
+      "variants": [
+        "Taroosh"
+      ],
+      "meaning": "very bitchy",
+      "original": "Taray (bitchy)",
+      "origin": "Tagalog",
+      "aliases": [
+        "taroosh",
+        "taray",
+        "very bitchy"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-3-row-4",
+      "table": 3,
+      "label": "Baboosh (goodbye)",
+      "word": "Baboosh",
+      "variants": [
+        "Baboosh"
+      ],
+      "meaning": "goodbye",
+      "original": "Babay/Bye-bye",
+      "origin": "Philippine English",
+      "aliases": [
+        "baboosh",
+        "babay",
+        "bye-bye",
+        "goodbye"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-3-row-5",
+      "table": 3,
+      "label": "Itech (this)",
+      "word": "Itech",
+      "variants": [
+        "Itech"
+      ],
+      "meaning": "this",
+      "original": "Itó (this)",
+      "origin": "Tagalog",
+      "aliases": [
+        "itech",
+        "itó",
+        "ito",
+        "this"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-3-row-6",
+      "table": 3,
+      "label": "Sinetch (who)",
+      "word": "Sinetch",
+      "variants": [
+        "Sinetch"
+      ],
+      "meaning": "who",
+      "original": "Sinó (who)",
+      "origin": "Tagalog",
+      "aliases": [
+        "sinetch",
+        "sinó",
+        "sino",
+        "who"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-3-row-7",
+      "table": 3,
+      "label": "Anech (what, usually exclamatory)",
+      "word": "Anech",
+      "variants": [
+        "Anech"
+      ],
+      "meaning": "what, usually exclamatory",
+      "original": "Anó (what)",
+      "origin": "Tagalog",
+      "aliases": [
+        "anech",
+        "anó",
+        "ano",
+        "what",
+        "usually exclamatory"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-4-row-1",
+      "table": 4,
+      "label": "Haller/Heller",
+      "word": "Haller",
+      "variants": [
+        "Haller",
+        "Heller"
+      ],
+      "meaning": "Hello",
+      "original": "Hello",
+      "origin": "English",
+      "aliases": [
+        "haller",
+        "heller",
+        "hello",
+        "Hello"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-4-row-2",
+      "table": 4,
+      "label": "Kalurkey",
+      "word": "Kalurkey",
+      "variants": [
+        "Kalurkey"
+      ],
+      "meaning": "Maddening / crazy",
+      "original": "Kaloka (insanely [entertaining], maddening, crazy)",
+      "origin": "Tagalog (from Spanish loca)",
+      "aliases": [
+        "kalurkey",
+        "kaloka",
+        "Maddening",
+        "crazy"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-4-row-3",
+      "table": 4,
+      "label": "Gander",
+      "word": "Gander",
+      "variants": [
+        "Gander"
+      ],
+      "meaning": "beautiful",
+      "original": "Gandá (beautiful)",
+      "origin": "Tagalog",
+      "aliases": [
+        "gander",
+        "gandá",
+        "ganda",
+        "beautiful"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-4-row-4",
+      "table": 4,
+      "label": "Walley",
+      "word": "Walley",
+      "variants": [
+        "Walley"
+      ],
+      "meaning": "Nothing / none",
+      "original": "Walâ (nothing, none), often used to mean a lack of the desired response (e.g. to an unfunny joke)",
+      "origin": "Tagalog",
+      "aliases": [
+        "walley",
+        "walâ",
+        "wala",
+        "Nothing",
+        "none"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-5-row-1",
+      "table": 5,
+      "label": "Ilij (no, not)",
+      "word": "Ilij",
+      "variants": [
+        "Ilij"
+      ],
+      "meaning": "no, not",
+      "original": "Dili (no, not)",
+      "origin": "Cebuano",
+      "aliases": [
+        "ilij",
+        "dili",
+        "not"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-5-row-2",
+      "table": 5,
+      "label": "Bayu (lover, boyfriend)",
+      "word": "Bayu",
+      "variants": [
+        "Bayu"
+      ],
+      "meaning": "lover, boyfriend",
+      "original": "Uyab (lover)",
+      "origin": "Cebuano",
+      "aliases": [
+        "bayu",
+        "uyab",
+        "lover",
+        "boyfriend"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-5-row-3",
+      "table": 5,
+      "label": "Nial (bad, unpleasant)",
+      "word": "Nial",
+      "variants": [
+        "Nial"
+      ],
+      "meaning": "bad, unpleasant",
+      "original": "Lain (bad, unpleasant)",
+      "origin": "Cebuano, Hiligaynon",
+      "aliases": [
+        "nial",
+        "lain",
+        "bad",
+        "unpleasant"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-1",
+      "table": 6,
+      "label": "Crayola (to cry, to be sad)",
+      "word": "Crayola",
+      "variants": [
+        "Crayola"
+      ],
+      "meaning": "cry, to be sad",
+      "original": "Cry",
+      "origin": "English",
+      "aliases": [
+        "crayola",
+        "cry",
+        "to be sad"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-2",
+      "table": 6,
+      "label": "Antibiotic (obnoxious, unpleasant)",
+      "word": "Antibiotic",
+      "variants": [
+        "Antibiotic"
+      ],
+      "meaning": "obnoxious, unpleasant",
+      "original": "Antipátika (obnoxious, unpleasant)",
+      "origin": "Tagalog (from Spanish antipática)",
+      "aliases": [
+        "antibiotic",
+        "antipátika",
+        "antipatika",
+        "obnoxious",
+        "unpleasant"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-3",
+      "table": 6,
+      "label": "Liberty (free)",
+      "word": "Liberty",
+      "variants": [
+        "Liberty"
+      ],
+      "meaning": "free",
+      "original": "Libre (free)",
+      "origin": "Tagalog (from Spanish libre)",
+      "aliases": [
+        "liberty",
+        "libre",
+        "free"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-4",
+      "table": 6,
+      "label": "Career/Karír ('to take seriously', in the sense of \"they turned it into their career\", used as a verb, e.g. karirin, \"to career\", kinareer)",
+      "word": "Career",
+      "variants": [
+        "Career",
+        "Karír"
+      ],
+      "meaning": "Take seriously",
+      "original": "Career",
+      "origin": "English",
+      "aliases": [
+        "career",
+        "karír",
+        "karir",
+        "take seriously",
+        "karirin",
+        "kinareer",
+        "Take seriously"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-5",
+      "table": 6,
+      "label": "Fillet O'Fish (to be attracted to someone)",
+      "word": "Fillet O'Fish",
+      "variants": [
+        "Fillet O'Fish"
+      ],
+      "meaning": "be attracted to someone",
+      "original": "Feel (to sympathize)",
+      "origin": "English",
+      "aliases": [
+        "fillet o'fish",
+        "feel",
+        "be attracted to someone"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-6",
+      "table": 6,
+      "label": "Kapé / Capuccino / Coffeemate (to be realistic)",
+      "word": "Kapé",
+      "variants": [
+        "Kapé",
+        "Capuccino",
+        "Coffeemate"
+      ],
+      "meaning": "be realistic",
+      "original": "'Wake up and smell the coffee.' (a humorous corruption of 'Wake up and smell the roses')",
+      "origin": "Philippine English",
+      "aliases": [
+        "kapé",
+        "kape",
+        "capuccino",
+        "coffeemate",
+        "be realistic",
+        "realistic"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-7",
+      "table": 6,
+      "label": "Thundercats (old, or the elderly, particularly old gay men)",
+      "word": "Thundercats",
+      "variants": [
+        "Thundercats"
+      ],
+      "meaning": "old, or the elderly, particularly old gay men",
+      "original": "Matandâ (old)",
+      "origin": "Tagalog",
+      "aliases": [
+        "thundercats",
+        "matandâ",
+        "matanda",
+        "old",
+        "or the elderly",
+        "particularly old gay men"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-8",
+      "table": 6,
+      "label": "Chiminey Cricket (housemaid)",
+      "word": "Chiminey Cricket",
+      "variants": [
+        "Chiminey Cricket"
+      ],
+      "meaning": "housemaid",
+      "original": "Deliberate corruption of Jiminy Cricket, Chimáy (Tagalog slang for housemaid)",
+      "origin": "Tagalog",
+      "aliases": [
+        "chiminey cricket",
+        "housemaid"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-9",
+      "table": 6,
+      "label": "Warla (war, fight, quarrel)",
+      "word": "Warla",
+      "variants": [
+        "Warla"
+      ],
+      "meaning": "war, fight, quarrel",
+      "original": "War",
+      "origin": "English",
+      "aliases": [
+        "warla",
+        "war",
+        "fight",
+        "quarrel"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-10",
+      "table": 6,
+      "label": "Nota (penis)",
+      "word": "Nota",
+      "variants": [
+        "Nota"
+      ],
+      "meaning": "penis",
+      "original": "Description as musical note",
+      "origin": "Tagalog",
+      "aliases": [
+        "nota",
+        "penis"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-11",
+      "table": 6,
+      "label": "Pocahontas (prostitute)",
+      "word": "Pocahontas",
+      "variants": [
+        "Pocahontas"
+      ],
+      "meaning": "prostitute",
+      "original": "Pokpok (slang for 'prostitute')",
+      "origin": "Tagalog",
+      "aliases": [
+        "pocahontas",
+        "pokpok",
+        "prostitute"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-12",
+      "table": 6,
+      "label": "Pagoda Cold Wave Lotion (tired, exhausted)",
+      "word": "Pagoda Cold Wave Lotion",
+      "variants": [
+        "Pagoda Cold Wave Lotion"
+      ],
+      "meaning": "tired, exhausted",
+      "original": "A locally available brand of cold wave lotion for setting permanent waves, and pagód (tired, exhausted)",
+      "origin": "Tagalog",
+      "aliases": [
+        "pagoda cold wave lotion",
+        "tired",
+        "exhausted"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-13",
+      "table": 6,
+      "label": "Mudra (mother, also used to refer to female friends with children)",
+      "word": "Mudra",
+      "variants": [
+        "Mudra"
+      ],
+      "meaning": "mother, also used to refer to female friends with children",
+      "original": "Madre (mother)",
+      "origin": "Spanish, Portuguese",
+      "aliases": [
+        "mudra",
+        "madre",
+        "mother"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-14",
+      "table": 6,
+      "label": "Pudra (father, also used to refer to male friends with children)",
+      "word": "Pudra",
+      "variants": [
+        "Pudra"
+      ],
+      "meaning": "father, also used to refer to male friends with children",
+      "original": "Padre (father)",
+      "origin": "Spanish, Portuguese",
+      "aliases": [
+        "pudra",
+        "padre",
+        "father"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-15",
+      "table": 6,
+      "label": "Hammer (prostitute)",
+      "word": "Hammer",
+      "variants": [
+        "Hammer"
+      ],
+      "meaning": "prostitute",
+      "original": "Pokpok (slang for 'prostitute), pukpók (onomatopoeic Tagalog word 'to pound', 'to hammer')",
+      "origin": "Tagalog, English",
+      "aliases": [
+        "hammer",
+        "pokpok",
+        "prostitute"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-16",
+      "table": 6,
+      "label": "Biyuti/Beyooti (beautiful, pretty)",
+      "word": "Biyuti",
+      "variants": [
+        "Biyuti",
+        "Beyooti"
+      ],
+      "meaning": "beautiful, pretty",
+      "original": "Beauty, word play of Cebuano bayot ('gay')",
+      "origin": "English, Cebuano",
+      "aliases": [
+        "biyuti",
+        "beyooti",
+        "beauty",
+        "word play of cebuano bayot",
+        "beautiful",
+        "pretty"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-17",
+      "table": 6,
+      "label": "Silahis (bisexual male, often flamboyant)",
+      "word": "Silahis",
+      "variants": [
+        "Silahis"
+      ],
+      "meaning": "bisexual male, often flamboyant",
+      "original": "Silahis ([sun]beam, ray)",
+      "origin": "Tagalog",
+      "aliases": [
+        "silahis",
+        "bisexual male",
+        "often flamboyant"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-18",
+      "table": 6,
+      "label": "Boyband (fat kid)",
+      "word": "Boyband",
+      "variants": [
+        "Boyband"
+      ],
+      "meaning": "fat kid",
+      "original": "A pun on Tagalog baboy ('pig')",
+      "origin": "Tagalog, English",
+      "aliases": [
+        "boyband",
+        "fat kid"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-19",
+      "table": 6,
+      "label": "G.I. Joe (A foreign lover, particularly American)",
+      "word": "G.I. Joe",
+      "variants": [
+        "G.I. Joe"
+      ],
+      "meaning": "Foreign lover, especially American",
+      "original": "Acronym for 'Gentleman Idiot', with the implication being that the foreigner does not know their partner is a cross-dressing male",
+      "origin": "English",
+      "aliases": [
+        "g.i. joe",
+        "Foreign lover",
+        "especially American"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-6-row-20",
+      "table": 6,
+      "label": "Opposition Party (a social occasion with a lot of expected problems)",
+      "word": "Opposition Party",
+      "variants": [
+        "Opposition Party"
+      ],
+      "meaning": "a social occasion with a lot of expected problems",
+      "original": "Pun on political opposition",
+      "origin": "English",
+      "aliases": [
+        "opposition party"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-21",
+      "table": 6,
+      "label": "Egyptian Airlines (jeepney)",
+      "word": "Egyptian Airlines",
+      "variants": [
+        "Egyptian Airlines"
+      ],
+      "meaning": "jeepney",
+      "original": "jeepney, jeep (or dyip in Tagalog)",
+      "origin": "English",
+      "aliases": [
+        "egyptian airlines",
+        "jeepney",
+        "jeep"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-6-row-22",
+      "table": 6,
+      "label": "Geisha (he is gay)",
+      "word": "Geisha",
+      "variants": [
+        "Geisha"
+      ],
+      "meaning": "he is gay",
+      "original": "gay siyá",
+      "origin": "English, Tagalog",
+      "aliases": [
+        "geisha",
+        "gay siyá",
+        "gay siya",
+        "he is gay"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-1",
+      "table": 7,
+      "label": "Julie Andrew (to be caught cheating)",
+      "word": "Julie Andrew",
+      "variants": [
+        "Julie Andrew"
+      ],
+      "meaning": "be caught cheating",
+      "original": "Hulì (Tagalog, 'to be caught')",
+      "origin": "'Julie' rhymes with 'hulì', and references British actress Julie Andrews",
+      "aliases": [
+        "julie andrew",
+        "hulì",
+        "huli",
+        "be caught cheating"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-2",
+      "table": 7,
+      "label": "Gelli de Belén (jealous)",
+      "word": "Gelli de Belén",
+      "variants": [
+        "Gelli de Belén"
+      ],
+      "meaning": "jealous",
+      "original": "Jealous",
+      "origin": "Gelli de Belen",
+      "aliases": [
+        "gelli de belén",
+        "gelli de belen",
+        "jealous"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-3",
+      "table": 7,
+      "label": "Winnie Cordero (to win, have won)",
+      "word": "Winnie Cordero",
+      "variants": [
+        "Winnie Cordero"
+      ],
+      "meaning": "win, have won",
+      "original": "Win",
+      "origin": "Winnie Cordero",
+      "aliases": [
+        "winnie cordero",
+        "win",
+        "have won"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-4",
+      "table": 7,
+      "label": "Luz Valdez (to lose, have lost)",
+      "word": "Luz Valdez",
+      "variants": [
+        "Luz Valdez"
+      ],
+      "meaning": "lose, have lost",
+      "original": "Lose",
+      "origin": "Luz Valdez",
+      "aliases": [
+        "luz valdez",
+        "lose",
+        "have lost"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-5",
+      "table": 7,
+      "label": "Toy Story (toy, or any other kind of plaything)",
+      "word": "Toy Story",
+      "variants": [
+        "Toy Story"
+      ],
+      "meaning": "toy, or any other kind of plaything",
+      "original": "toy",
+      "origin": "Toy Story",
+      "aliases": [
+        "toy story",
+        "toy",
+        "or any other kind of plaything"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-6",
+      "table": 7,
+      "label": "Julanis Morissette (raining)",
+      "word": "Julanis Morissette",
+      "variants": [
+        "Julanis Morissette"
+      ],
+      "meaning": "raining",
+      "original": "ulán (Tagalog, 'rain')",
+      "origin": "Alanis Morissette",
+      "aliases": [
+        "julanis morissette",
+        "ulán",
+        "ulan",
+        "raining"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-7",
+      "table": 7,
+      "label": "Jinit Jackson (hot weather)",
+      "word": "Jinit Jackson",
+      "variants": [
+        "Jinit Jackson"
+      ],
+      "meaning": "hot weather",
+      "original": "init (Tagalog, 'hot')",
+      "origin": "Janet Jackson",
+      "aliases": [
+        "jinit jackson",
+        "init",
+        "hot weather"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-8",
+      "table": 7,
+      "label": "Tommy Lee Jones / Tom Jones (hungry)",
+      "word": "Tommy Lee Jones",
+      "variants": [
+        "Tommy Lee Jones",
+        "Tom Jones"
+      ],
+      "meaning": "hungry",
+      "original": "Tom-guts (Tagalog syllable switching slang for gutóm, 'hungry')",
+      "origin": "Tommy Lee Jones, Tom Jones",
+      "aliases": [
+        "tommy lee jones",
+        "tom jones",
+        "tom-guts",
+        "hungry"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-9",
+      "table": 7,
+      "label": "Stress Drilon (stress)",
+      "word": "Stress Drilon",
+      "variants": [
+        "Stress Drilon"
+      ],
+      "meaning": "stress",
+      "original": "stress",
+      "origin": "Ces Drilon",
+      "aliases": [
+        "stress drilon",
+        "stress"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-10",
+      "table": 7,
+      "label": "Haggardo Versoza (haggard)",
+      "word": "Haggardo Versoza",
+      "variants": [
+        "Haggardo Versoza"
+      ],
+      "meaning": "haggard",
+      "original": "haggard (exhausted, tired)",
+      "origin": "Gardo Versoza",
+      "aliases": [
+        "haggardo versoza",
+        "haggard"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-11",
+      "table": 7,
+      "label": "X-Men (formerly appearing to be heterosexual, coming out, especially turning from hypermasculine to effeminate)",
+      "word": "X-Men",
+      "variants": [
+        "X-Men"
+      ],
+      "meaning": "formerly appearing to be heterosexual, coming out, especially turning from hypermasculine to effeminate",
+      "original": "'Ex-man'",
+      "origin": "X-Men",
+      "aliases": [
+        "x-men",
+        "'ex-man'",
+        "coming out"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-7-row-12",
+      "table": 7,
+      "label": "Fayatollah Kumenis (thin)",
+      "word": "Fayatollah Kumenis",
+      "variants": [
+        "Fayatollah Kumenis"
+      ],
+      "meaning": "thin",
+      "original": "Payát (Tagalog, 'thin')",
+      "origin": "Ayatollah Khomeini",
+      "aliases": [
+        "fayatollah kumenis",
+        "payát",
+        "payat",
+        "thin"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-13",
+      "table": 7,
+      "label": "Barbra Streisand (to be rejected bluntly, blocked)",
+      "word": "Barbra Streisand",
+      "variants": [
+        "Barbra Streisand"
+      ],
+      "meaning": "be rejected bluntly, blocked",
+      "original": "Bará (Tagalog, 'to block', including verbally)",
+      "origin": "Barbra Streisand",
+      "aliases": [
+        "barbra streisand",
+        "bará",
+        "bara",
+        "be rejected bluntly",
+        "blocked"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-14",
+      "table": 7,
+      "label": "Muriah Carrey (cheap)",
+      "word": "Muriah Carrey",
+      "variants": [
+        "Muriah Carrey"
+      ],
+      "meaning": "cheap",
+      "original": "Mura (Tagalog, 'cheap')",
+      "origin": "Mariah Carey",
+      "aliases": [
+        "muriah carrey",
+        "mura",
+        "cheap"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-15",
+      "table": 7,
+      "label": "Lupita Kashiwahara (cruel)",
+      "word": "Lupita Kashiwahara",
+      "variants": [
+        "Lupita Kashiwahara"
+      ],
+      "meaning": "cruel",
+      "original": "Lupít (Tagalog, 'cruel')",
+      "origin": "Lupita Aquino-Kashiwahara, a Filipina film and television director, and sister of assassinated Senator Benigno Aquino Jr.)",
+      "aliases": [
+        "lupita kashiwahara",
+        "lupít",
+        "lupit",
+        "cruel"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-16",
+      "table": 7,
+      "label": "Carmi Martin (karma)",
+      "word": "Carmi Martin",
+      "variants": [
+        "Carmi Martin"
+      ],
+      "meaning": "karma",
+      "original": "Karma",
+      "origin": "Carmi Martin",
+      "aliases": [
+        "carmi martin",
+        "karma"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-17",
+      "table": 7,
+      "label": "Rita Gómez (irritating, annoying)",
+      "word": "Rita Gómez",
+      "variants": [
+        "Rita Gómez"
+      ],
+      "meaning": "irritating, annoying",
+      "original": "Nakaka-iritá (Tagalog and Spanish, 'irritating')",
+      "origin": "Rita Gómez",
+      "aliases": [
+        "rita gómez",
+        "rita gomez",
+        "nakaka-iritá",
+        "nakaka-irita",
+        "irritating",
+        "annoying"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-18",
+      "table": 7,
+      "label": "Mahalia Jackson (expensive)",
+      "word": "Mahalia Jackson",
+      "variants": [
+        "Mahalia Jackson"
+      ],
+      "meaning": "expensive",
+      "original": "Mahál (Tagalog 'expensive', 'precious', 'dear')",
+      "origin": "Mahalia Jackson",
+      "aliases": [
+        "mahalia jackson",
+        "mahál",
+        "mahal",
+        "expensive"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-19",
+      "table": 7,
+      "label": "Anaconda (traitor, to betray)",
+      "word": "Anaconda",
+      "variants": [
+        "Anaconda"
+      ],
+      "meaning": "traitor, to betray",
+      "original": "Ahas (Tagalog slang, 'to betray', literally 'snake')",
+      "origin": "Anaconda (film)",
+      "aliases": [
+        "anaconda",
+        "ahas",
+        "traitor",
+        "to betray"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-20",
+      "table": 7,
+      "label": "Badinger Z (homosexual)",
+      "word": "Badinger Z",
+      "variants": [
+        "Badinger Z"
+      ],
+      "meaning": "homosexual",
+      "original": "Badíng (Tagalog derogatory slang, 'homosexual')",
+      "origin": "Mazinger Z (anime)",
+      "aliases": [
+        "badinger z",
+        "badíng",
+        "bading",
+        "homosexual"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-7-row-21",
+      "table": 7,
+      "label": "Taxina Hong Kingston (to wait for a taxicab)",
+      "word": "Taxina Hong Kingston",
+      "variants": [
+        "Taxina Hong Kingston"
+      ],
+      "meaning": "wait for a taxicab",
+      "original": "Taxi",
+      "origin": "Maxine Hong Kingston",
+      "aliases": [
+        "taxina hong kingston",
+        "taxi",
+        "wait for a taxicab"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-22",
+      "table": 7,
+      "label": "Noël Coward (No)",
+      "word": "Noël Coward",
+      "variants": [
+        "Noël Coward"
+      ],
+      "meaning": "No",
+      "original": "No",
+      "origin": "Noël Coward",
+      "aliases": [
+        "noël coward",
+        "noel coward",
+        "no"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-23",
+      "table": 7,
+      "label": "Oprah Winfrey (promise)",
+      "word": "Oprah Winfrey",
+      "variants": [
+        "Oprah Winfrey"
+      ],
+      "meaning": "promise",
+      "original": "Promise",
+      "origin": "Oprah Winfrey",
+      "aliases": [
+        "oprah winfrey",
+        "promise"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-24",
+      "table": 7,
+      "label": "Sharon Cuneta (yes, sure)",
+      "word": "Sharon Cuneta",
+      "variants": [
+        "Sharon Cuneta"
+      ],
+      "meaning": "yes, sure",
+      "original": "Sure",
+      "origin": "Sharon Cuneta",
+      "aliases": [
+        "sharon cuneta",
+        "sure",
+        "yes"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-25",
+      "table": 7,
+      "label": "Mag-Sharon (To Sharon)",
+      "word": "Mag-Sharon",
+      "variants": [
+        "Mag-Sharon"
+      ],
+      "meaning": "Take home leftovers from parties",
+      "original": "Take home leftovers from parties.",
+      "origin": "Sharon Cuneta",
+      "aliases": [
+        "mag-sharon",
+        "take home leftovers",
+        "leftovers",
+        "Take home leftovers from parties"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-26",
+      "table": 7,
+      "label": "Jesus Christ Superstar",
+      "word": "Jesus Christ Superstar",
+      "variants": [
+        "Jesus Christ Superstar"
+      ],
+      "meaning": "Resurrection",
+      "original": "Resurrection",
+      "origin": "Jesus Christ Superstar",
+      "aliases": [
+        "jesus christ superstar",
+        "resurrection",
+        "Resurrection"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-27",
+      "table": 7,
+      "label": "Optimus Prime (a fashion makeover, to change into more fashionable clothing)",
+      "word": "Optimus Prime",
+      "variants": [
+        "Optimus Prime"
+      ],
+      "meaning": "a fashion makeover, to change into more fashionable clothing",
+      "original": "Transformation",
+      "origin": "Optimus Prime",
+      "aliases": [
+        "optimus prime",
+        "transformation",
+        "a fashion makeover"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-7-row-28",
+      "table": 7,
+      "label": "Churchill (high society)",
+      "word": "Churchill",
+      "variants": [
+        "Churchill"
+      ],
+      "meaning": "high society",
+      "original": "Sosyál",
+      "origin": "Winston Churchill",
+      "aliases": [
+        "churchill",
+        "sosyál",
+        "sosyal",
+        "high society"
+      ],
+      "category": "Pop culture",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-1",
+      "table": 8,
+      "label": "Dramá (also the adjective 'dramatic')",
+      "word": "Dramá",
+      "variants": [
+        "Dramá"
+      ],
+      "meaning": "Melodrama / exaggeration",
+      "original": "Melodrama, exaggeration, drama [queen]",
+      "origin": "English",
+      "aliases": [
+        "dramá",
+        "drama",
+        "melodrama",
+        "exaggeration",
+        "drama [queen]",
+        "dramatic",
+        "Melodrama"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-2",
+      "table": 8,
+      "label": "Carry/Keri",
+      "word": "Carry",
+      "variants": [
+        "Carry",
+        "Keri"
+      ],
+      "meaning": "Manageable / carry oneself well",
+      "original": "To carry [oneself well], manageable",
+      "origin": "English",
+      "aliases": [
+        "carry",
+        "keri",
+        "to carry [oneself well]",
+        "manageable",
+        "Manageable",
+        "carry oneself well"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-3",
+      "table": 8,
+      "label": "Siete Pecados",
+      "word": "Siete Pecados",
+      "variants": [
+        "Siete Pecados"
+      ],
+      "meaning": "Nosy, gossipmonger",
+      "original": "Nosy, gossipmonger",
+      "origin": "Spanish, 'seven sins'; also two different rock formations in the Philippines",
+      "aliases": [
+        "siete pecados",
+        "nosy",
+        "gossipmonger",
+        "Nosy"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-4",
+      "table": 8,
+      "label": "Puñeta (also spelt punyeta)",
+      "word": "Puñeta",
+      "variants": [
+        "Puñeta",
+        "punyeta"
+      ],
+      "meaning": "General profanity",
+      "original": "General profanity, roughly equivalent to 'fuck'",
+      "origin": "Spanish slang, with varying degrees of perceived obscenity. Literally, 'in a fist'.",
+      "aliases": [
+        "puñeta",
+        "puneta",
+        "punyeta",
+        "profanity",
+        "General profanity"
+      ],
+      "category": "Context matters",
+      "usageNote": "Source-listed expression that can be vulgar, insulting, or stereotyped. Meaning and acceptability depend on context."
+    },
+    {
+      "rowId": "table-8-row-5",
+      "table": 8,
+      "label": "Chiquito",
+      "word": "Chiquito",
+      "variants": [
+        "Chiquito"
+      ],
+      "meaning": "Small",
+      "original": "Small",
+      "origin": "Spanish, 'small'",
+      "aliases": [
+        "chiquito",
+        "small",
+        "Small"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-6",
+      "table": 8,
+      "label": "Coño (also spelt konyo)",
+      "word": "Coño",
+      "variants": [
+        "Coño",
+        "konyo"
+      ],
+      "meaning": "Affluent socialite / high society",
+      "original": "High society, especially [affluent] socialites who speak Taglish exclusively",
+      "origin": "Spanish slang, 'vagina'",
+      "aliases": [
+        "coño",
+        "cono",
+        "konyo",
+        "socialite",
+        "Affluent socialite",
+        "high society"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-7",
+      "table": 8,
+      "label": "Otoko",
+      "word": "Otoko",
+      "variants": [
+        "Otoko"
+      ],
+      "meaning": "Manly man",
+      "original": "Manly man",
+      "origin": "Japanese, 男 (otoko)",
+      "aliases": [
+        "otoko",
+        "manly man",
+        "Manly man"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-8",
+      "table": 8,
+      "label": "Berru",
+      "word": "Berru",
+      "variants": [
+        "Berru"
+      ],
+      "meaning": "Beer",
+      "original": "Beer",
+      "origin": "Japanese, ビール (bīru)",
+      "aliases": [
+        "berru",
+        "beer",
+        "Beer"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    },
+    {
+      "rowId": "table-8-row-9",
+      "table": 8,
+      "label": "Watashi",
+      "word": "Watashi",
+      "variants": [
+        "Watashi"
+      ],
+      "meaning": "I / me",
+      "original": "Me, I",
+      "origin": "Japanese, 私 (watashi)",
+      "aliases": [
+        "watashi"
+      ],
+      "category": "Wikipedia",
+      "usageNote": ""
+    }
+  ]
+}

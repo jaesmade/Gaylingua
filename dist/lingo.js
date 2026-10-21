@@ -1,5 +1,7 @@
+import { wikipediaSource, wikipediaRows } from './wikipedia-words.js';
+export { wikipediaSource, wikipediaRows };
 // Curated learning vocabulary. Meanings and usage vary by speaker and community.
-export const words = [
+export const curatedWords = [
   {id:'bongga',word:'Bongga',meaning:'Fabulous / impressive',filipino:'Maganda / kahanga-hanga',category:'Expressions',emoji:'✨',example:'Bongga ng outfit mo, beshie!',note:'An enthusiastic compliment for something impressive or fabulous.',aliases:['fabulous','impressive','amazing','awesome','kahanga-hanga','bongga']},
   {id:'charot',word:'Charot',meaning:'Just kidding',filipino:'Biro lang',category:'Expressions',emoji:'🤭',example:'Ako na ang next superstar. Charot!',note:'Softens a joke or playful exaggeration. Context and tone still matter.',aliases:['just kidding','only joking','joke lang','biro lang','charot']},
   {id:'beshie',word:'Beshie',meaning:'Best friend / close friend',filipino:'Matalik na kaibigan',category:'People',emoji:'💞',example:'Beshie, may chika ako!',note:'An affectionate way to address a close friend.',aliases:['best friend','close friend','friend','kaibigan','beshie']},
@@ -31,6 +33,35 @@ export const words = [
   {id:'junakis',word:'Junakis',meaning:'Child / children',filipino:'Anak',category:'People',emoji:'🧸',example:'Kasama ni mudra ang junakis.',note:'An affectionate, playful form of anak.',aliases:['children','child','anak','junakis']},
   {id:'ganern',word:'Ganern',meaning:'Like that',filipino:'Ganoon / ganyan',category:'Expressions',emoji:'🫰',example:'Pak, ganern! Ang bongga!',note:'An expressive variant of ganoon or ganyan.',aliases:['like that','ganoon','ganun','ganyan','ganern']},
 ];
+const folded = text => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[’]/g, "'").trim();
+export const words = curatedWords.map(word => ({ ...word, aliases: [...word.aliases], sourceRecords: [] }));
+for (const row of wikipediaRows) {
+  const existing = words.find(word => [word.word, ...word.aliases].some(alias => row.variants.some(variant => folded(alias) === folded(variant))));
+  if (existing) {
+    existing.aliases = [...new Set([...existing.aliases, ...row.aliases].map(alias => alias.toLowerCase()))];
+    existing.sourceRecords.push(row);
+  } else {
+    words.push({
+      id: 'wiki-' + folded(row.word).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+      word: row.word, meaning: row.meaning, filipino: row.original, original: row.original,
+      category: row.category, emoji: row.table === 7 ? '🎬' : '📖', example: null,
+      note: row.usageNote || 'Imported from Wikipedia. This is a source-listed meaning, not a claim that the expression is current or universal.',
+      aliases: row.aliases.map(alias => alias.toLowerCase()), sourceRecords: [row],
+    });
+  }
+}
+export function meaningsOverlap(a, b) {
+  const parts = word => word.meaning.split(/[,/]/).map(part => folded(part).replace(/^to /, '').replace(/[.!]$/g, ''));
+  return parts(a).some(part => parts(b).includes(part));
+}
+export function distinctWords(pool, count) {
+  const selected = [];
+  for (const word of shuffled(pool)) {
+    if (!selected.some(other => other.id === word.id || meaningsOverlap(other, word))) selected.push(word);
+    if (selected.length === count) break;
+  }
+  return selected;
+}
 export const phrases = [
   {inputs:['hello','hi','kumusta','kamusta','hello friend','hi friend','kumusta ka','how are you','how are you?'],output:'Hello, beshie! Kumusta ang awra?',ids:['beshie','awra']},
   {inputs:["let's eat",'lets eat','let’s eat','tara kain','tara kain na','kain na tayo','let us eat'],output:'Gora na, lafang tayo, beshie!',ids:['gora','lafang','beshie']},
@@ -64,7 +95,7 @@ export function translate(input, language = 'auto') {
   });
   // English pronouns are only changed for an English or automatic source.
   if (language !== 'filipino' && matches.length && /\b(?:i|me)\b/i.test(output)) {
-    output = output.replace(/\b(?:I|me)\b/g,'aketch');
+    output = output.replace(/\b(?:i|me)\b/gi,'aketch');
     if(!matches.some(w=>w.id==='aketch')) matches.push(words.find(w=>w.id==='aketch'));
   }
   return {text:output,matches,kind:matches.length?'words':'unmatched'};

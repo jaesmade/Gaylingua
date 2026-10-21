@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { words, phrases, translate, dailyWord, shuffled } from '../dist/lingo.js';
+import { words, curatedWords, phrases, translate, dailyWord, shuffled, wikipediaRows, meaningsOverlap, distinctWords } from '../dist/lingo.js';
 
 test('all curated English and Filipino phrases resolve without case or punctuation sensitivity', () => {
   for (const phrase of phrases) for (const input of phrase.inputs) {
@@ -13,9 +13,9 @@ test('all curated English and Filipino phrases resolve without case or punctuati
 });
 test('empty and unsupported input do not invent translations', () => {
   assert.equal(translate('  ').kind,'empty');
-  const unmatched=translate('The telescope points at Jupiter.');
+  const unmatched=translate('The telescope points at Saturn.');
   assert.equal(unmatched.kind,'unmatched');
-  assert.equal(unmatched.text,'The telescope points at Jupiter.');
+  assert.equal(unmatched.text,'The telescope points at Saturn.');
   assert.deepEqual(unmatched.matches,[]);
 });
 test('word boundaries preserve longer words and Unicode words',()=>{
@@ -38,8 +38,43 @@ test('a repeated word produces one explanatory entry',()=>{
 test('every dictionary entry has a unique ID, meaningful details, and a working alias',()=>{
   assert.equal(new Set(words.map(w=>w.id)).size,words.length);
   for(const word of words){
-    assert.ok(word.meaning&&word.filipino&&word.note&&word.example&&word.category);
+    assert.ok(word.meaning&&word.filipino&&word.note&&word.category);
+    assert.ok(word.example || word.sourceRecords.length);
     assert.ok(word.aliases.some(alias=>translate(alias).matches.some(w=>w.id===word.id)),word.id);
+  }
+});
+
+test('every Wikipedia row and listed variant is present and searchable',()=>{
+  assert.equal(wikipediaRows.length,83);
+  assert.equal(words.length,104);
+  assert.equal(curatedWords.length,30);
+  assert.equal(new Set(words.flatMap(w=>w.sourceRecords.map(r=>r.rowId))).size,83);
+  for(const row of wikipediaRows){
+    const word=words.find(w=>w.sourceRecords.some(r=>r.rowId===row.rowId));
+    assert.ok(word,row.label);
+    for(const variant of row.variants) assert.ok(translate(variant).matches.some(match=>match.id===word.id),variant);
+  }
+});
+
+test('new vocabulary translates English meanings and unaccented source variants',()=>{
+  assert.ok(translate('jeepney').matches.some(w=>w.word==='Egyptian Airlines'));
+  assert.ok(translate('expensive').matches.some(w=>w.word==='Mahalia Jackson'));
+  assert.ok(translate('Gorabels').matches.some(w=>w.id==='gora'));
+  assert.ok(translate('Konyo').matches.some(w=>w.word==='Coño'));
+});
+
+test('English pronoun substitutions are case insensitive and keep negations',()=>{
+  assert.equal(translate('i am very tired').text,'aketch am very Pagoda');
+  assert.equal(translate('ME feels tired').text,'aketch feels Pagoda');
+  assert.ok(translate('I am not hungry').matches.some(word=>word.word==='Ilij'),'Negation is retained as the imported no/not expression');
+});
+
+test('games do not pair identical or directly overlapping meanings',()=>{
+  assert.equal(meaningsOverlap({meaning:'Cheap / inexpensive'},{meaning:'cheap'}),true);
+  for(let i=0;i<100;i++){
+    const selected=distinctWords(words,5);
+    assert.equal(selected.length,5);
+    for(let a=0;a<selected.length;a++)for(let b=a+1;b<selected.length;b++)assert.equal(meaningsOverlap(selected[a],selected[b]),false);
   }
 });
 test('daily word is stable through a local calendar day',()=>{
